@@ -19,7 +19,8 @@ const FavouriteList = () => {
                                     type: 'REMOVE_FROM_LIST',
                                     payload: i,
                                 })
-                            }}>Remove Company</Button>
+                                alert('REMOVE COMPLETE')
+                            }}>Remove</Button>
                         </ListGroup.Item>
                     ))
                 }

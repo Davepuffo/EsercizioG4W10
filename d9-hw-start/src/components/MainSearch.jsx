@@ -33,7 +33,7 @@ const MainSearch = () => {
   return (
     <Container>
       <Row>
-        <Col xs={10} className="mx-auto my-3">
+        <Col xs={10} className="mx-auto my-3 d-flex justify-content-between">
           <h1>Remote Jobs Search</h1>
           <Button onClick={() => navigate('/favourites')}>Favourites Company</Button>
         </Col>
